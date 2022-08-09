@@ -1,12 +1,9 @@
 use std::{net::{TcpListener, TcpStream}, io::{Read}};
 
-use state_machine::{STATE_INIT, EVENT_START};
-
 use crate::shared::req_headers::req_headers::{ReqHeaders, parse_req_headers, get_method, get_uri};
 mod state_machine;
 mod util;
 mod shared;
-
 
 
 fn main() {
