@@ -44,7 +44,6 @@ def readArgs():
         print("\n")
         print("[OPTIONS]")
         FORMAT = "{:<10} {:<10} {:<10} {:<10}"
-        # LONG SHORT REQURED DESCRIPTION
         print(FORMAT.format("LONG", "SHORT", "REQUIRED", "DESCRIPTION"))
         print(FORMAT.format("--port", "-p", "yes", "Specifies the port number the client will try connecting to."))
         print("\n\n")
